@@ -1,0 +1,7 @@
+.DS_Store
+.vagrant
+.idea/
+.tmp/
+/puppet/modules/*
+!/puppet/modules/docker/
+.librarian/

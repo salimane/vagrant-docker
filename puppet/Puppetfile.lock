@@ -1,0 +1,55 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    garethr-docker (4.0.2)
+      puppetlabs-apt (<= 1.8.0, >= 1.1.0)
+      puppetlabs-stdlib (>= 4.1.0)
+      stahnma-epel (>= 0.0.6)
+    nanliu-staging (1.0.3)
+    puppetlabs-apt (1.8.0)
+      puppetlabs-stdlib (>= 2.2.1)
+    puppetlabs-concat (1.2.3)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-firewall (1.6.0)
+    puppetlabs-mysql (3.4.0)
+      nanliu-staging (~> 1.0)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-ntp (4.0.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.6.0)
+    puppetlabs-postgresql (4.3.0)
+      puppetlabs-apt (< 2.0.0, >= 1.8.0)
+      puppetlabs-concat (< 2.0.0, >= 1.1.0)
+      puppetlabs-stdlib (~> 4.0)
+    puppetlabs-sqlite (0.0.1)
+    puppetlabs-stdlib (4.6.0)
+    saz-memcached (2.8.1)
+      puppetlabs-firewall (>= 0.1.0)
+      puppetlabs-stdlib (>= 3.2.0)
+    saz-sudo (3.1.0)
+      puppetlabs-stdlib (< 5.0.0, >= 2.3.0)
+    stahnma-epel (1.0.2)
+    thias-sysctl (1.0.2)
+
+GIT
+  remote: https://github.com/echocat/puppet-redis.git
+  ref: master
+  sha: 194474691416446a220e2bf45149a4644c7b9bb3
+  specs:
+    echocat-redis (1.6.0)
+      puppetlabs-stdlib (>= 4.2.0)
+
+DEPENDENCIES
+  echocat-redis (>= 0)
+  garethr-docker (= 4.0.2)
+  puppetlabs-concat (= 1.2.3)
+  puppetlabs-firewall (= 1.6.0)
+  puppetlabs-mysql (= 3.4.0)
+  puppetlabs-ntp (= 4.0.0)
+  puppetlabs-postgresql (= 4.3.0)
+  puppetlabs-sqlite (= 0.0.1)
+  puppetlabs-stdlib (= 4.6.0)
+  saz-memcached (= 2.8.1)
+  saz-sudo (= 3.1.0)
+  stahnma-epel (= 1.0.2)
+  thias-sysctl (= 1.0.2)
+
